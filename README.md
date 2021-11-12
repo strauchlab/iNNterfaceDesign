@@ -15,7 +15,7 @@ The outputs include designed backbone in docked pose and designed amino acid seq
 
 ##First time setup##
 
-Markup :  # Heading 1 #
+# Heading 1 #
 
 The following software and python packages have to be installed  in order to run PepBB:
 1. python v3.7 or higher;

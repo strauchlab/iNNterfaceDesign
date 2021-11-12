@@ -13,3 +13,10 @@ All these methods can be used separately.
 
 The outputs include designed backbone in docked pose and designed amino acid sequence for it. Mapping of amino acid sequence to the backbone and subsequent relaxation have to be done in other specialized software, like Rosetta. Normal job should include filteing as well, since some produced binders are of poor quality.
 
+First time setup
+The following software and python packages have to be installed  in order to run PepBB:
+1. python v3.7 or higher;
+2. PyRosetta;
+3. Tensorflow.
+
+Setup consists in a mere downloading of folder “PepBB” and unzipping of an archive “Models” in “PepBB/Modules” directory into the same destination.

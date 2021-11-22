@@ -6,14 +6,14 @@ The figure below demonstrate performance of the method on SARS-CoV-2 receptor bi
 |     :---:      |     :---:      |
 |![capture](gif/1l6x_pepseq.gif)|![capture](gif/1l6x_bb.gif)|
 
-The framework includes the following main neural network models:
+The framework consists of following main neural network models:
 1) PepBB generating 6-residue backbones of binders;
 2) BepBBE elongating initial backbones;
 3) PepSeP1/PepSep6 designing amino acid sequences for the backbones.
 
 All these methods can be used separately.
 
-The outputs include designed backbone in docked pose and designed amino acid sequence for it. Mapping of amino acid sequence to the backbone and subsequent relaxation have to be done in other specialized software, like Rosetta. Normal job should include filteing as well, since some produced binders are of poor quality.
+The outputs include designed backbone in a docked pose and a designed amino acid sequence for it. Mapping of the amino acid sequence to the backbone and subsequent relaxation have to be done in third-party software, like Rosetta. Normal job should include filteing as well, since some produced binders are of poor quality.
 
 ## First time setup ##
 

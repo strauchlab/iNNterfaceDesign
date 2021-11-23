@@ -12,7 +12,7 @@ Central α-helices and loops were modeled for all possible positions having prob
 
 The backbones were extended by generating 3 additional residues using three trained PepBBE models* for each side of the binder.  Swapping of extended pieces with natural fragments was not conducted here. If helix residues were used for the extension then the extended fragment was generates for the most probable position; the extension with loop residues was carried out for  three most probable positions. Threshold for probability for selection of positions is 2%. 
 
-```scss
+```css
 *We repeated training of PepBBE model 10 times during development of the method and 3 trained models with top performances were kept for future usage. The best models were set as default in the framework however there is opportunity to extend backbones using all these models getting 3 times more poses: despite similarity of outputs of the models in most cases they are not exactly same and corresponding amino acid sequence designs for them can differ. 
 ```
 

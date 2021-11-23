@@ -2,7 +2,7 @@ Presented binders are 12-residue peptides having α-helix and loop structures  d
 
 The following types of the binders differing by their secondary structure are presented:
 
-* 12-residue α-helices stored in an archive file called “H”; 
+* 12-residue α-helices stored in an archive file called “H”;  
  12-residue loops in an archive file called “L”;
  9-residue α-helices having additional 3 loop residues at the right end, stored in an archive file called “HL”;
 c) 9-residue α-helices having additional 3 loop residues at the left end, stored in an archive file called “LH”;

@@ -12,8 +12,6 @@ e) 6-residue α-helices having additional 3 loop residues at both left and right
 
 2. The backbones were extended by generating 3 additional residues using three trained PepBBE models* for each side of the binder.  Swapping of extended pieces with natural fragments was not conducted here. If helix residues were used for the extension then the extended fragment was generates for the most probable position; the extension with loop residues was carried out for  three most probable positions. Threshold for probability for selection of positions is 2%. 
 
-**We repeated training of PepBBE model 10 times during development of the method and 3 trained models with top performances were  kept for future usage. The best models were set as default in the framework however  there is opportunity to extend backbones using all these models getting 3 times more poses: despite similarity of outputs of the models in most cases  they are not exactly same and corresponding amino acid sequence designs for them can differ.*
-
 3. Amino acid sequences were designed  using PepSP6 method; the sequence designs were filtered using build-in filter excluding designs with low diversity of types of amino acids in sequences.
 Designed binders  were relaxed using Rosetta software, details of these calculations can be found in AA paper. Resulted binders were filtered using Geometry, FragmentLookupFilter and Sasa filters of Rosetta software; binders resulting in buried ASP and GLU residues  of the target were also excluded.
 
@@ -21,3 +19,5 @@ Designed binders  were relaxed using Rosetta software, details of these calculat
 Therefore, each of the archive files mentioned above contains three folders: “1” for the initial binders, “2” for binders with redesigned sequences, “3” for binders with animo-acid sequences designed as for homo-oligomeric PPIs.
 
 The following residues of the target protein were used as anchor residues for designs: 10,23,32-49,51-54,56-62,64,71,73,74,76,77,80-83,95,96,98,101,104,105,131,132,171,172,176,183-190,195.  These are surface residues in proximity of the binding domain.
+
+**We repeated training of PepBBE model 10 times during development of the method and 3 trained models with top performances were  kept for future usage. The best models were set as default in the framework however  there is opportunity to extend backbones using all these models getting 3 times more poses: despite similarity of outputs of the models in most cases  they are not exactly same and corresponding amino acid sequence designs for them can differ.*

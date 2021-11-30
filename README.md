@@ -3,18 +3,11 @@ This package provides a framework for one-sided design of protein-protein interf
 
 The figure below demonstrate performance of the method on SARS-CoV-2 receptor binding domain. Crystal structures of all generated binders for the rarget can be found in folder "SARS_design_examples" for more clar overview of capabilities of the method. If someone is interested in these designs from practical point of view, they can contact with us for collaborative work.
 
-|     :---:      |     :---:      |
-
-<video>
-<source src="https://github.com/strauchlab/iNNterfaceDesign/blob/main/gif/11.mp4" type="video/mp4">
-</video>
 
 
-https://user-images.githubusercontent.com/29002564/144124286-fdaadac6-667f-490d-b44d-a94938ce6ac6.mp4
+https://user-images.githubusercontent.com/29002564/144131115-ec23f2c6-7231-4bcd-af4f-5e64d50bfbf0.mp4
 
 
-
-![capture](gif/1l6x_bb.gif)|
 
 The framework consists of following main neural network models:
 1) PepBB generating 6-residue backbones of binders;

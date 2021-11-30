@@ -4,7 +4,8 @@ This package provides a framework for one-sided design of protein-protein interf
 The figure below demonstrate performance of the method on SARS-CoV-2 receptor binding domain. Crystal structures of all generated binders for the rarget can be found in folder "SARS_design_examples" for more clar overview of capabilities of the method. If someone is interested in these designs from practical point of view, they can contact with us for collaborative work.
 
 
-https://user-images.githubusercontent.com/29002564/144132544-5585bcb8-dd42-4672-8038-37495a776f60.mp4
+
+https://user-images.githubusercontent.com/29002564/144135615-6736fb56-fcc0-488b-a8ef-76492e07a841.mp4
 
 
 https://user-images.githubusercontent.com/29002564/144131115-ec23f2c6-7231-4bcd-af4f-5e64d50bfbf0.mp4

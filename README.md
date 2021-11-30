@@ -10,6 +10,10 @@ The figure below demonstrate performance of the method on SARS-CoV-2 receptor bi
 </video>
 
 
+https://user-images.githubusercontent.com/29002564/144124286-fdaadac6-667f-490d-b44d-a94938ce6ac6.mp4
+
+
+
 ![capture](gif/1l6x_bb.gif)|
 
 The framework consists of following main neural network models:

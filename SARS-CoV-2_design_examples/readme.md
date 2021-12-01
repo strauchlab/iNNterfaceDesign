@@ -7,7 +7,7 @@ c) 9-residue a-helices having additional 3 loop residues at the right end, store
 c) 9-residue a-helices having additional 3 loop residues at the left end, stored in an archive file called “LH”;  
 e) 6-residue a-helices having additional 3 loop residues at both left and right ends, stored in an archive file called “LHL”.  
 
-Generating of the binders was carried out as follows:
+### Generating of the binders was carried out as follows:  
 Central a-helices and loops were modeled for all possible positions having probability higher than 2% using PepBB model. The designed backbones were swapped with most similar natural 6-residue backbone fragments from fragments library of the method.
 
 The backbones were extended by generating 3 additional residues using three trained PepBBE models[^1] for each side of the binder.  Swapping of extended pieces with natural fragments was not conducted here. If helix residues were used for the extension then the extended fragment was generates for the most probable position; the extension with loop residues was carried out for  three most probable positions. Threshold for probability for selection of positions is 2%. 

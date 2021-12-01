@@ -18,6 +18,8 @@ Designed binders  were relaxed using Rosetta software, details of these calculat
 4. Amino acid sequences were designed once more fore relaxed backbones of the binders; besides amino acid sequences were additionally generated as for homo-oligomeric PPIs just to compare results.
 Therefore, each of the archive files mentioned above contains three folders: “1” for the initial binders, “2” for binders with redesigned sequences, “3” for binders with animo-acid sequences designed as for homo-oligomeric PPIs.
 
+5. Binders were filtered based on their affinity towards protein receptor, threshold value was set to -10 REU according to estimarion by means of ref15 scoring function. Besides contribution of at least one individual residue to binding has to be 4 REU at least according to alanine scanning results.
+
 The following residues of the target protein were used as anchor residues for designs: 10,23,32-49,51-54,56-62,64,71,73,74,76,77,80-83,95,96,98,101,104,105,131,132,171,172,176,183-190,195.  These are surface residues in proximity of the binding domain.
 
 **We repeated training of PepBBE model 10 times during development of the method and 3 trained models with top performances were  kept for future usage. The best models were set as default in the framework however  there is opportunity to extend backbones using all these models getting 3 times more poses: despite similarity of outputs of the models in most cases  they are not exactly same and corresponding amino acid sequence designs for them can differ.*

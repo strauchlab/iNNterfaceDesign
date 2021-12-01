@@ -1,8 +1,8 @@
-Presented binders are 12-residue peptides having a-helix and loop structures  designed for SARS-CoV-2 receptor binding domain. Crystal structure of the target protein, cleaned and renumbered by clean_pdb.py script of Rosetta software, is provided in 6w41_C.pdb file.
+Presented binders are 9-12-residue peptides, having a-helix and loop structures,  designed for SARS-CoV-2 receptor binding domain. Crystal structure of the target protein, cleaned and renumbered by clean_pdb.py script of Rosetta software, is provided in 6w41_C.pdb file.
 
 The following types of the binders differing by their secondary structure are presented:
 a) 12-residue a-helices stored in an archive file called “H”;
-b) 12-residue loops in an archive file called “L”;
+b) 9-residue loops in an archive file called “L”;
 c) 9-residue a-helices having additional 3 loop residues at the right end, stored in an archive file called “HL”;
 c) 9-residue a-helices having additional 3 loop residues at the left end, stored in an archive file called “LH”;
 e) 6-residue a-helices having additional 3 loop residues at both left and right ends, stored in an archive file called “LHL”.

@@ -23,9 +23,10 @@ The outputs include designed backbone in a docked pose and a designed amino acid
 
 ## First time setup ##
 
+The software is developed for Linux-based systems.
 The following software and python packages have to be installed  in order to run PepBB:
 1. python v3.7 or higher;
 2. PyRosetta;
 3. Tensorflow.
 
-Setup consists in a mere downloading of folder “PepBB” and unzipping of an archive “Models” in “PepBB/Modules” directory into the same destination.
+A manual to the program can be found here, in "Manual.docx" file.

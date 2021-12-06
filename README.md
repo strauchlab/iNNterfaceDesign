@@ -24,7 +24,7 @@ The outputs include designed backbone in a docked pose and a designed amino acid
 ## First time setup ##
 
 The software is developed for Linux-based systems.
-The following software and python packages have to be installed  in order to run PepBB:
+The following software and python packages have to be installed  in order to run iNNterfaceDesign.
 1. python v3.7 or higher;
 2. PyRosetta;
 3. Tensorflow.

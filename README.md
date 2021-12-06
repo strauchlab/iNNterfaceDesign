@@ -21,7 +21,6 @@ All these methods can be used separately.
 
 The outputs include designed backbone in a docked pose and a designed amino acid sequence for it. Mapping of the amino acid sequence to the backbone and subsequent relaxation have to be done in third-party software, like Rosetta. Normal job should include filteing as well, since some produced binders are of poor quality.
 
-## First time setup ##
 
 The software is developed for Linux-based systems.
 The following software and python packages have to be installed  in order to run iNNterfaceDesign.

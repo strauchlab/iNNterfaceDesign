@@ -28,4 +28,4 @@ The following software and python packages have to be installed  in order to run
 2. PyRosetta;
 3. Tensorflow.
 
-A manual to the program can be found here, in "Manual.docx" file.
+A manual to the program can be found here, in "Manual.docx" file. The manual contains instractions for both iNNterfaceDesign as a whole and PepSep methods only separate;y.

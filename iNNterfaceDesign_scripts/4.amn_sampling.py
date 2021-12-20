@@ -103,7 +103,7 @@ def merge_designs(res, model_name):
 def get_aas_designs(data, model, keywords):
     res = []
     data = f.readjson(data)
-    data = [np.array(i)[:10000] for i in data]
+    data = [np.array(i)[:] for i in data]
     p_geom, p_amn, p_seq, shape, interf_type, name, p_f = data
     data_for_amns_n = data_for_aas_func(len(name))
     designs = aas_prediction_func([p_geom, p_amn,p_seq,  shape, interf_type] + data_for_amns_n, model, keywords)

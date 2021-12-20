@@ -121,7 +121,7 @@ def make_binders_E(data, data2, keywords, e, c_names = None):
     if e == 1:
         model_pos = load_model(dir_models + 'Orn_C.hdf5')
         model_sst = load_model(dir_models + 'SecS_C.hdf5')
-        model_bb = [load_model(dir_models + 'PepBB_C_' + str(k) + '.hdf5') for k in range(1,nbem+1)]
+        model_bb = [load_model(dir_models + 'PepBB_C' + str(k) + '.hdf5') for k in range(1,nbem+1)]
 
 
     elif (e == 0) or (e==10):

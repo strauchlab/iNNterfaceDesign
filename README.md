@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/29002564/144131115-ec23f2c6-7231-4bcd-
 
 The framework consists of following main neural network models:
 1) PepBB generating 6-residue backbones of binders;
-2) BepBBE elongating initial backbones;
+2) BepBBE elongating initial backbones (the model will be uploaded after publication of the method);
 3) PepSeP1/PepSep6 designing amino acid sequences for the backbones.
 
 All these methods can be used separately.

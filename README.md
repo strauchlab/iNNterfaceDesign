@@ -10,6 +10,8 @@ https://user-images.githubusercontent.com/29002564/144135615-6736fb56-fcc0-488b-
 
 
 
+https://user-images.githubusercontent.com/29002564/148499382-e07ae208-992d-4c74-a840-1f5429a128f3.mp4
+
 
 
 The framework consists of following main neural network models:

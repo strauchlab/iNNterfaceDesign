@@ -1,7 +1,7 @@
 # iNNterfaceDesign
 This package provides a framework for one-sided design of protein-protein interfaces based on features of protein receptor. This novel method is based on pipeline of neural networks processing features of the protein surface and producing the relevant binders and motifs for the target. The method is extremely quick and does not imply scanning of libraries with native PPI. 
 
-The figure below demonstrate performance of the method on SARS-CoV-2 receptor binding domain. Crystal structures of all generated binders for the target can be found in folder "SARS-CoV-2_design_examples" for more clear overview of capabilities of the method. 
+The figure below demonstrate performance of the method on SARS-CoV-2 receptor binding domain in case of helical binders. Crystal structures of all generated binders for the target can be found in folder "SARS-CoV-2_design_examples" for more clear overview of capabilities of the method. 
 
 
 

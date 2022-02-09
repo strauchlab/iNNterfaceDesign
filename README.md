@@ -41,6 +41,5 @@ A manual to the program can be found here, in "Manual.docx" file. The manual con
 
 ### How do I reference this work?
 
-Syrlybaeva R., Strauch E-M. Deep learning of Protein Sequence Design of Protein-protein Interactions.
-
+Syrlybaeva R., Strauch E-M. Deep learning of Protein Sequence Design of Protein-protein Interactions.  
 bioRxiv (2022) doi: 10.1101/2022.01.28.478262

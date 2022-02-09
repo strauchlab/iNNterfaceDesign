@@ -39,7 +39,7 @@ The following software and python packages have to be installed  in order to run
 A manual to the program can be found here, in "Manual.docx" file. The manual contains instractions for both iNNterfaceDesign as a whole and PepSep methods only separately.
 
 
-## How do I reference this work?
+### How do I reference this work?
 
 Syrlybaeva R., Strauch E-M. Deep learning of Protein Sequence Design of Protein-protein Interactions.
 

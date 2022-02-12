@@ -34,7 +34,7 @@ The software is developed for Linux-based systems.
 The following software and python packages have to be installed  in order to run iNNterfaceDesign.
 1. python v3.7 or higher;
 2. PyRosetta;
-3. Tensorflow.
+3. Tensorflow v2.1.0.
 
 A manual to the program can be found here, in "Manual.docx" file. The manual contains instractions for both iNNterfaceDesign as a whole and PepSep methods only separately.
 

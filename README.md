@@ -38,6 +38,8 @@ The following software and python packages have to be installed  in order to run
 
 A manual to the program can be found here, in "Manual.docx" file. The manual contains instractions for both iNNterfaceDesign as a whole and PepSep methods only separately.
 
+If you want to give feedback and you are not at ease with GitHub, you can write me directly to email raulia.syrlybaeva@uga.edu
+
 
 ### How do I reference this work?
 

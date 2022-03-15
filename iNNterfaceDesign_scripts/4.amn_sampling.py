@@ -30,7 +30,7 @@ def make_pssm(y_pred):
     return data_new
 
 def aas_prediction_func(data, model_name, keywords):
-    model = load_model(dir_models + model_name + '.hdf5')
+    model = load_model(dir_models + model_name + '.hdf5', custom_objects={'tf': tf, 'K': tf.keras.backend})
     test_ch = arr_ranges(data)
     print(len(test_ch))
     y_pred = [model.predict(i, verbose=0) for i in test_ch]

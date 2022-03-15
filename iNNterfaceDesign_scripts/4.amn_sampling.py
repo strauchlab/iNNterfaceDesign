@@ -1,6 +1,7 @@
 import sys, os, numpy as np
 from modules import functions as f, Amino_acid_dictionaries as ad
 from tensorflow.keras.models import load_model
+import tensorflow as tf
 
 flat = lambda x: [i for j in x for i in j]
 rev_ad = {ad.amn_mapping[i]:i for i in ad.amn_mapping}

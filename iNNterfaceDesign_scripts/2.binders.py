@@ -1,4 +1,5 @@
 import sys,numpy as np
+import tensorflow as tf
 from modules import functions as f, transform_coords as tc
 from tensorflow.keras.models import load_model
 
@@ -76,9 +77,9 @@ def binders_predictions_func(data, o, s, model):
     return [y_pred, o, s]
 
 def make_binders(data, data2, keywords):
-    model_pos = load_model(dir_models + 'Orn.hdf5')
-    model_sst = load_model(dir_models + 'SecS.hdf5')
-    model_bb = load_model(dir_models + 'PepBB.hdf5')
+    model_pos = load_model(dir_models + 'Orn.hdf5', custom_objects={'tf': tf, 'K': tf.keras.backend})
+    model_sst = load_model(dir_models + 'SecS.hdf5', custom_objects={'tf': tf, 'K': tf.keras.backend})
+    model_bb = load_model(dir_models + 'PepBB.hdf5', custom_objects={'tf': tf, 'K': tf.keras.backend})
     swap = 'False'
     if ('swap_pose' in keywords) and (keywords['swap_pose'] == 'True'):
         swap = 'True'

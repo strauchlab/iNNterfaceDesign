@@ -447,7 +447,7 @@ def calculate_rmsd(y_pred, data2, names, rank, sstr, prefix, swap):
 
 def get_helix_coords():
     bb_at = ['CA', 'N', 'C', 'O']
-    text = f.readfile('/home/raulia/binders_nn/modules/helix.pdb', 'l')
+    text = f.readfile('modules/helix.pdb', 'l')
     coords = [np.array([[float(x) for x in a.split()[6:9]] for a in text if a.split()[2] == ba]) for ba in bb_at]
     return coords
 

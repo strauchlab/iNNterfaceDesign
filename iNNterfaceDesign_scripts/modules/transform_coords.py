@@ -6,7 +6,7 @@ from modules import functions as f
 
 np.set_printoptions(suppress=True)
 BQi = lambda x: [[x, 0, 0], [0, x, 0], [0, 0, x], [-x, 0, 0], [0, -x, 0], [0, 0, -x]]
-frag_dir = '/home/raulia/binders_nn/modules/frag_database/'
+frag_dir = 'modules/frag_database/'
 sst_dict = {0: 'H', 1: 'E', 2: 'L'}
 
 def st_or(xyz, bq, p):

@@ -1,0 +1,2 @@
+pdb: 3ztj_ABCDEF
+anchor_res: 363-365,367

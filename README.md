@@ -33,7 +33,7 @@ The software is developed for Linux-based systems.
 
 The following software and python packages have to be installed  in order to run iNNterfaceDesign.
 1. python v3.7;
-2. PyRosetta;
+2. PyRosetta-4 2019;
 3. Tensorflow v2.1.0;
 4. h5py v.2.10.0.
 

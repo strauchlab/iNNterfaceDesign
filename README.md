@@ -36,6 +36,7 @@ The following software and python packages have to be installed  in order to run
 2. PyRosetta-4 2019;
 3. Tensorflow v2.1.0;
 4. h5py v.2.10.0.
+5. numpy v.1.19.1
 
 A manual to the program can be found here, in "Manual.docx" file. The manual contains instractions for both iNNterfaceDesign as a whole and PepSep methods only separately.
 

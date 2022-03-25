@@ -5,7 +5,7 @@ import tensorflow as tf
 
 flat = lambda x: [i for j in x for i in j]
 rev_ad = {ad.amn_mapping[i]:i for i in ad.amn_mapping}
-dir_models = '/home/raulia/binders_nn/modules/models/'
+dir_models = 'modules/models/'
 
 def arr_ranges(data):
     data = [f.make_ranges(data[k], 50) for k in range(len(data))]

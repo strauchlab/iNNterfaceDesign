@@ -4,7 +4,7 @@ from modules import functions as f, transform_coords as tc
 from tensorflow.keras.models import load_model
 
 sst_dict = {'H': 0, 'E':1, 'L': 2}
-dir_models = '/home/raulia/binders_nn/modules/models/'
+dir_models = 'modules/models/'
 def arr_ranges(data):
     data = [f.make_ranges(data[k], 50) for k in range(len(data))]
     data = [[a[k] for a in data] for k in range(len(data[0]))]

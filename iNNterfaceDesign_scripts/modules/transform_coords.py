@@ -388,7 +388,7 @@ def check_against_native(sh_atoms, frags):
 
 def calculate_rmsd(y_pred, data2, names, rank, sstr, prefix, frag_dir,  swap):
     helix_coords = get_helix_coords()
-    print(helix_coords)
+    #print(helix_coords)
     fpath = os.getcwd()
     pdb_name_f = fpath + '/' + prefix + '/binders/' 
  

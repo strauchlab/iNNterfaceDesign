@@ -15,7 +15,7 @@ b) 6-residue a-helices having additional 3 loop residues at both left and right 
 4. Designed binders  were relaxed using Rosetta software, details of these calculations can be found in AA paper. Resulted binders were filtered using Geometry, FragmentLookupFilter and SASA filters of Rosetta software; binders resulting in buried ASP and GLU residues  of the target were also excluded.
 
 5. Amino acid sequences were designed once more on relaxed backbones of the binders using PepSeP6; besides amino acid sequences were additionally generated as for homo-oligomeric PPIs just to compare results.
-Therefore, each of the archive files mentioned above contains three folders: “1” for the initial binders, “2” for binders with redesigned sequences, “3” for binders with animo-acid sequences designed as for homo-oligomeric PPIs.
+Therefore, each of the folders mentioned above contains three folders: “1” for the initial binders, “2” for binders with redesigned sequences, “3” for binders with animo-acid sequences designed as for homo-oligomeric PPIs.
 
 6. Binders were filtered based on their affinity towards the protein receptor, calculated using ref15 scoring function; a threshold value was set to -15 REU. Besides, contribution of at least one individual residue to the binding is equal or more 4 REU according to alanine scanning.
 

@@ -1,6 +1,6 @@
 prefix: 3ztj_all
 pdb: 3ztj_ABCDEF
 anchor_res: 363-365,367
-max_pos: 36
+max_pos: 10
 max_sst: 9
 amn_design: 6

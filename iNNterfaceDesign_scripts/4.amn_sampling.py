@@ -86,7 +86,7 @@ def merge_designs(res, model_name):
         pssm = []
         res_name = [a for a in res if a[0] == name]
         if model_name == 'PepSep1':
-            designs = flat([[[x[0], x[1], [a[1], x[2]], x[2] + a[1]] for x in a[2]] for a in res_name])
+            designs = flat([[[x[0], x[1], [a[1], x[2]], x[2] + a[1]] for x in a[2][0]] for a in res_name])
             aa1 = make_aa(designs)
             aa = ''.join([a[0] for a in aa1])
             if len(res[0]) == 4:

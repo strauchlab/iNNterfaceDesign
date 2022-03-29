@@ -15,7 +15,7 @@ def readfile(jobfile,type):
     return text
 
 def keywords(ff):
-    text = readfile(ff, 'l')
+    text = [a for a in readfile(ff, 'l') if a.strip() != '']
     text = {a.split(':')[0]: a.split(':')[1].strip() for a in text if (a[0] != '#') and (a.split(':')[1].strip() != '')}
     if 'pdb' not in text:
         print('PDB-file is not provided')

@@ -35,6 +35,8 @@ def sc_cen_constr():
 def make_folders(prefix):
     if os.path.isdir(prefix + '/binders_id') == False:
         os.mkdir(prefix + '/binders_id')
+    if os.path.isdir(prefix + '/binders_rel') == False:
+        os.mkdir(prefix + '/binders_rel')
     if os.path.isdir(prefix + '/complexes') == False:
         os.mkdir(prefix + '/complexes')
     if os.path.isdir(prefix + '/scores') == False:

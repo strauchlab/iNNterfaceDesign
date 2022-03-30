@@ -105,7 +105,7 @@ def interface_eval(scorefxn):
     iam.set_compute_interface_energy(True)
     iam.set_calc_dSASA(True)
     iam.set_pack_separated(True)
-    iam.set_pack_rounds(200)
+    iam.set_pack_rounds(20)
     return iam
 
 def ala_scan(pose, scorefxn, interf_chains, l1):
@@ -130,18 +130,18 @@ def ala_scan(pose, scorefxn, interf_chains, l1):
     return scores
 
 
-def mutate_loop(data, dir, dir1, dir2, k1):
+def mutate_loop(data, dir, dir1, dir2, dir3, k1):
     scorefxn = sc()
     iam = interface_eval(scorefxn)
     score_data = []
    
     for cx, cpx in enumerate(data[:]):
         name, seq = cpx[0][:-4], cpx[1]
-        p_name = name[:-4] + 'pocket.pdb' 
+        p_name = name + 'pocket.pdb' 
         print(p_name)
         pocket = pose_from_pdb(dir1 + p_name)
         loop1 = pose_from_pdb(dir2 + name + '_id.pdb')
-        loop_cst = pose_from_pdb(dir2 + name + '_id.pdb')
+        loop_cst = loop1.clone()
         unq_seq = np.unique(seq)
         for m in range(len(unq_seq)):
             #try:
@@ -187,7 +187,7 @@ def mutate_loop(data, dir, dir1, dir2, k1):
             loop_rel = cpx_res[0][1]
 
             ddG = ala_scan(loop_rel, scorefxn, interf_chains, l1)
-            loop_rel.dump_pdb(dir2 + name + pt_m +  '_cpx.pdb')
+            loop_rel.dump_pdb(dir3 + name + pt_m +  '_cpx.pdb')
             score_data.append([name, m, unq_seq[m], cpx_res[0][0], ddG])
                
     print(score_data)
@@ -208,14 +208,15 @@ k1 = sys.argv[1]
 cpx = f.readfile(k1, 'l')
 dir = cpx[0].split('/')[0]
 
-cpx = [a.strip().split('/')[-1] for a in cpx]
+cpx = [a.strip().split('/')[-1] for a in cpx[:]]
 data = f.readjson(dir + '/' + dir + '_aas.json')
 data = [a for a in data if a[0][:-4] + '_id.pdb' in cpx]
 
 dir1 = dir + '/pockets/'
 dir2 = dir + '/binders_id/'
-mutate_loop(data, dir, dir1, dir2, k1)
+dir3 = dir + '/binders_rel/'
 
-"""
+mutate_loop(data, dir, dir1, dir2, dir3, k1)
+
 #merge_json('6vy4_Hr9/scores/')
 

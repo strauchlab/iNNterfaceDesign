@@ -28,6 +28,12 @@ def make_folders(prefix):
         os.mkdir(prefix)
     if os.path.isdir(prefix + '/structures') == False:
         os.mkdir(prefix + '/structures')
+    if os.path.isdir(prefix + '/binders_rel') == False:
+        os.mkdir(prefix + '/binders_rel')
+    if os.path.isdir(prefix + '/scores') == False:
+        os.mkdir(prefix + '/scores')
+
+
 
 def get_protein(pdb):
     protein = cp.Protein(pdb + '.pdb')

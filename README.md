@@ -20,14 +20,10 @@ https://user-images.githubusercontent.com/29002564/148499738-37256419-56ed-4e27-
 
 The framework consists of following main neural network models:
 1) PepBB generating 6-residue backbones of binders;
-2) BepBBE elongating initial backbones (the model will be uploaded after publication of the method);
+2) BepBBE elongating initial backbones;
 3) PepSeP1/PepSep6 designing amino acid sequences for the backbones.
 
 All these methods can be used separately.
-
-The outputs include designed backbone in a docked pose and a designed amino acid sequence for it. Mapping of the amino acid sequence to the backbone and subsequent relaxation have to be done in third-party software, like Rosetta. Normal job should include filteing as well, since some produced binders are of poor quality.
-
-
 The software is developed for Linux-based systems.
 
 
@@ -38,13 +34,12 @@ The following software and python packages have to be installed  in order to run
 4. h5py v.2.10.0.
 5. NumPy v.1.19.1
 
-A manual to the program can be found here, in "Manual.docx" file. The manual contains instractions for both iNNterfaceDesign as a whole and PepSep methods only separately. Besides, video showing installation process and test runs can be watched using these links:
+A manual to the program can be found here, in "Manual.docx" file. The manual contains instractions for both iNNterfaceDesign as a whole and PepSep methods only separately. Besides, video showing installation process and test runs are uploaded to "videos" folder or can be watched using these links:
 
 https://www.linkedin.com/posts/raulia-syrlybaeva-a9b4737b_innterfacedesign-activity-6914257560657113088-deeJ?utm_source=linkedin_share&utm_medium=member_desktop_web
 
 https://www.linkedin.com/posts/raulia-syrlybaeva-a9b4737b_innterfacedesign-activity-6914263775223111680-dt3a?utm_source=linkedin_share&utm_medium=member_desktop_web
 
-If you want to give feedback and you are not at ease with GitHub, you can write me directly to email raulia.syrlybaeva@gmail.com
 
 
 ### How do I reference this work?

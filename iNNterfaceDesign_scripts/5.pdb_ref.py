@@ -218,5 +218,5 @@ dir3 = dir + '/binders_rel/'
 
 mutate_loop(data, dir, dir1, dir2, dir3, k1)
 
-#merge_json('6vy4_Hr9/scores/')
+#merge_json(dir + '/scores/')
 

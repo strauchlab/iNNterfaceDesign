@@ -212,5 +212,4 @@ dir1 = dir + '/structures/'
 dir2 = dir + '/binders_rel/'
 mutate_loop(data, dir, dir1, dir2, k1)
 
-#merge_json('6vy4_Hr9/scores/')
 

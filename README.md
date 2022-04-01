@@ -46,3 +46,7 @@ https://www.linkedin.com/posts/raulia-syrlybaeva-a9b4737b_innterfacedesign-activ
 
 Syrlybaeva R., Strauch E-M. Deep learning of Protein Sequence Design of Protein-protein Interactions.  
 bioRxiv (2022) doi: 10.1101/2022.01.28.478262
+
+
+Syrlybaeva R., Strauch E-M. One-sided design of protein-protein interaction motifs using deep learning.
+bioRxiv (2022) doi: 10.1101/2022.03.30.486144 

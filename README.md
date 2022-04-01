@@ -34,7 +34,7 @@ The following software and python packages have to be installed  in order to run
 4. h5py v.2.10.0.
 5. NumPy v.1.19.1
 
-A manual to the program can be found here, in "Manual.pdf" file. The manual contains instractions for both iNNterfaceDesign as a whole and PepSep methods only separately. Besides, video showing installation process and test runs are uploaded to "videos" folder or can be watched using these links:
+A manual to the program can be found here, in "Manual.pdf" file. The manual contains instractions for both iNNterfaceDesign as a whole and PepSep methods only separately. Besides, video showing installation process and test runs are uploaded to "videos" folder or can be watched using these links (folder with inputs examples is renamed currently):
 
 https://www.linkedin.com/posts/raulia-syrlybaeva-a9b4737b_innterfacedesign-activity-6914257560657113088-deeJ?utm_source=linkedin_share&utm_medium=member_desktop_web
 

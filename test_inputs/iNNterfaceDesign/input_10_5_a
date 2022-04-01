@@ -1,0 +1,7 @@
+add_residues: True
+prefix: 3ztj
+pdb: 3ztj_AB
+anchor_res: 361,363,365,367
+max_pos: 2
+max_sst: 1
+amn_design: 1

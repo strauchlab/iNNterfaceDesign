@@ -1,6 +1,0 @@
-prefix: 3ztj_pepsep6_long_frag
-pdb: 3ztj_ABCDEFHG
-res_interval: 1570-1580
-p_chains: A,B,C,D,E,F
-amn_design: 6
-single_frag: True

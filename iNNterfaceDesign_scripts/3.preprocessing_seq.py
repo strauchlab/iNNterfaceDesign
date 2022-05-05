@@ -51,7 +51,7 @@ def get_pocket_res(loop_g1_amns, all_amns):
     if (clashes_num >= 2):
         pocket_res = None
         return
-    cthr = 3.0 if len(l_ca) == 6 else 5
+    cthr = 3.0 #if len(l_ca) == 6 else 5
     clashes = [sorted([f.distance(a, m.atoms_no_h[1].xyz) for m in all_amns if int(m.amn_number) in core_amns])[0] for ax, a in enumerate(l_ca) if ax in [0, 1, len(l_ca)-2, len(l_ca)-1]]
     if (len([a for a in clashes[:2] if a < cthr]) ==2) or (len([a for a in clashes[2:] if a < cthr]) ==2): 
         pocket_res = None

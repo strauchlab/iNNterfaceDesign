@@ -135,6 +135,7 @@ def get_frags(cpxs, prefix, data_info, keywords):
             """
             loop_g1.dump_pdb(prefix + '/binders_id/' + cpx[:-4] + '_id.pdb')        
             append_pose_to_pose(loop_g1, pocket)
+            loop_g1.dump_pdb(prefix + '/complexes/' + cpx[:-4] + '.pdb')
             loop_g1 = cp.Protein(prefix + '/binders_id/' + cpx[:-4] + '_id.pdb')
             loop_g1_amns = sorted(flat([ch.amns for ch in loop_g1.chains]),key=lambda x: int(x.amn_number))
             #if len(loop_g1_amns) <= 6:

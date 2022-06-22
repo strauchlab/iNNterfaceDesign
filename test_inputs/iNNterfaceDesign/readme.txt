@@ -13,7 +13,7 @@ relaxed motifs complexed with binding sites in 3ztj_top/binders_rel folder
 
 pdb: 3ztj_AB.pdb
 input file1: input_10_5
-input file1: input_10_5_a
+input file2: input_10_5_a
 
 Expected output:
 folder: "3ztj"

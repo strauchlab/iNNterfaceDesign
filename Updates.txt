@@ -14,3 +14,7 @@ Changes in the models:
 
 Databases
 A File "database_complexes.json" containing lists of complexes used for training and testing of the model is added. The file consists of python dictionaries which names specify a dataset (training/validation/test/benchmark). Names of complexes consists of name of crystal structure, label of chain with protein ligand, number of the first residue of 6-residue protein ligand fragment.
+
+
+7/27/2022
+iNNterfaceDesign/iNNterfaceDesign_scripts/4.amn_sampling.py is edited: an error in postprocessing of PepSeP6 outputs is fixed.

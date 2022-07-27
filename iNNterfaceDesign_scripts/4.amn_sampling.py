@@ -52,13 +52,13 @@ def aas_prediction_func(data, model_name, keywords):
     
     pred_seq = [[[ad.amn_mapping1letter[rev_ad[j + 1]], pred_prob[ix][jx], jx] for jx, j in enumerate(i)] for ix, i in enumerate(pred)]
     if model_name == 'PepSep6':
-        pred_seq = [[a[k:k+6] for k in range(6)] for a in pred_seq]
+        pred_seq = [[a[k*6:k*6+6] for k in range(6)] for a in pred_seq]
     else:
         pred_seq = [[a] for a in pred_seq]
     if ('amn_prob_distr' in keywords) and (keywords['amn_prob_distr'] == 'True'):
         pssm = make_pssm(y_pred)
         if model_name == 'PepSep6':
-            pssm =  [[a[k:k+6] for k in range(6)] for a in pssm]
+            pssm =  [[a[k*6:k*6+6] for k in range(6)] for a in pssm]
         return [pred_seq, pssm]
     else:
         return [pred_seq]

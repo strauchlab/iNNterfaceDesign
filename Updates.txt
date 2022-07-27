@@ -13,7 +13,7 @@ Changes in the models:
 5. We found out that the changes from the point above (4) and some other changes in the architecture improved performance of the main block and the reverse prediction block became redundant. Therefore, we omitted the reverse prediction block during training of the new model.
 
 Databases
-A File "database_complexes.json" containing lists of complexes used for training and testing of the model is added. The file consists of python dictionaries which names specify a dataset (training/validation/test/benchmark). Names of complexes consists of name of crystal structure, label of chain with protein ligand, number of the first residue of 6-residue protein ligand fragment.
+A File "database_complexes.json" containing lists of complexes used for training and testing of the model is added. The file consists of python dictionaries which names specify a dataset (training/validation/test/benchmark). Names of complexes consists of name of crystal structure, label of chain with protein ligand, number of the first residue of 6-residue protein ligand fragment and label of chain with a binding site.
 
 
 7/27/2022

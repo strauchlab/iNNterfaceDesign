@@ -18,3 +18,6 @@ A File "database_complexes.json" containing lists of complexes used for training
 
 7/27/2022
 iNNterfaceDesign/iNNterfaceDesign_scripts/4.amn_sampling.py is edited: an error in postprocessing of PepSeP6 outputs is fixed.
+
+10/4/2022
+A version of PepSep6 trained on hetero-oligomeric PPIs in the last 5 steps of optimization is added as PepSep6_v2.hdf5. It performs better on hetero-oligomeric PPIs than other versions of the model.
